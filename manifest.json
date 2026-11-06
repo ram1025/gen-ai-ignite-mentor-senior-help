@@ -1,0 +1,15 @@
+{
+  "name": "Senior Help - MVP Vizag",
+  "short_name": "Senior Help",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FFF3E0",
+  "theme_color": "#D32F2F",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
