@@ -1,15 +1,62 @@
 {
   "name": "Senior Help - MVP Vizag",
   "short_name": "Senior Help",
+  "description": "One Click = One Call for Seniors of MVP Colony, Vizag. Ambulance, Pharmacy, Hospital, Doctor & Family SOS in big buttons.",
+  "id": "/gen-ai-ignite-mentor-senior-help/",
   "start_url": ".",
+  "scope": ".",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#FFF3E0",
   "theme_color": "#D32F2F",
+  "categories": ["health", "medical", "utilities"],
+  "lang": "en",
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Family SOS",
+      "short_name": "SOS",
+      "description": "Direct call to family in emergency",
+      "url": "tel:+918886992983",
+      "icons": [
+        {
+          "src": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Ambulance 108",
+      "short_name": "Ambulance",
+      "description": "Call Ambulance 108",
+      "url": "tel:108",
+      "icons": [
+        {
+          "src": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     }
   ]
 }
